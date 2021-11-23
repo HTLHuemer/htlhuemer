@@ -1,0 +1,40 @@
+/* setting background-image */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* headline */
+header {
+	text-align: center;
+	padding: 1.5% 0;
+	margin: 0 0 2% 0;
+	border-bottom: 3px solid #fff;
+	background-color: #000;
+	color: #fff;
+}
+header h1 {
+	font-size: 300%;
+	margin: 0;
+	font-weight: normal;
+}
+
+/* galerie */
+.flex-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.flex-container div {
+    width: 25%;
+}
+.flex-container img {
+    display: block;
+	width: 100%;
+    opacity: 0.5;
+}
+.flex-container div img:hover {
+    opacity: 1;
+}
